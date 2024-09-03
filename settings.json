@@ -1,0 +1,96 @@
+{
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+
+  // Change font
+  "editor.fontFamily": "JetBrains Mono",
+  "scm.inputFontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "chat.editor.fontFamily": "JetBrains Mono",
+  "debug.console.fontFamily": "JetBrains Mono",
+  "editor.codeLensFontFamily": "JetBrains Mono",
+  "notebook.output.fontFamily": "JetBrains Mono",
+  "markdown.preview.fontFamily": "JetBrains Mono",
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "600",
+
+  // Font size
+  "editor.fontSize": 13,
+  "terminal.integrated.fontSize": 13,
+
+  // ui
+  "window.newWindowDimensions": "maximized",
+  "workbench.colorTheme": "Ayu Green Dark",
+  "workbench.iconTheme": "moxer-icons",
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "editor.scrollbar.vertical": "auto",
+  "window.titleBarStyle": "custom",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.inlineSuggest.showToolbar": "onHover",
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+    // "**/node_modules": true
+  },
+
+  // Misc
+  "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "workbench.editor.showTabs": "single",
+  "editor.linkedEditing": false,
+  "breadcrumbs.filePath": "off",
+  "breadcrumbs.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": false,
+
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.activityBar.location": "bottom",
+  "window.customTitleBarVisibility": "auto",
+
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.addMissingImports": "never"
+  },
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "tailwindCSS.validate": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // VIM
+  "vim.handleKeys": {
+    "<C-p>": false,
+    "<C-s>": true
+  },
+
+  // append zz to ctrl-f and ctrl-b
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-f>", "<C-b>"],
+      "commands": ["zz"]
+    }
+  ],
+  "supermaven.enable": {
+    "*": true
+  },
+  "svelte.enable-ts-plugin": true,
+  "vim.useSystemClipboard": true,
+  "workbench.sideBar.location": "right",
+  "supermaven.allowGitignore": true,
+  "window.zoomLevel": 1
+}
